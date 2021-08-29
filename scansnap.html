@@ -1,0 +1,397 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>4. ScanSnapの設定 &mdash; 本の自炊マニュアル 0.1 ドキュメント</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="_static/mycustom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="索引"
+              href="genindex.html"/>
+        <link rel="search" title="検索" href="search.html"/>
+    <link rel="top" title="本の自炊マニュアル 0.1 ドキュメント" href="index.html"/>
+        <link rel="next" title="5. スキャナの設定" href="scanner.html"/>
+        <link rel="prev" title="3. 本のスキャン" href="scan.html"/>
+ 
+<!-- my theme custom extrahead beacon -->
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="index.html" class="icon icon-home"> 本の自炊マニュアル
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                0.1
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+                <p class="caption"><span class="caption-text">目次</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="outline.html">1. 概要</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="outline.html#id2">1.1. 作業手順</a></li>
+<li class="toctree-l2"><a class="reference internal" href="outline.html#id3">1.2. 準備するもの</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="split.html">2. 本の解体</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="split.html#id2">2.1. 準備</a></li>
+<li class="toctree-l2"><a class="reference internal" href="split.html#id3">2.2. 見返しの剥離</a></li>
+<li class="toctree-l2"><a class="reference internal" href="split.html#id4">2.3. 本体の分割</a></li>
+<li class="toctree-l2"><a class="reference internal" href="split.html#id5">2.4. 本体の裁断</a></li>
+<li class="toctree-l2"><a class="reference internal" href="split.html#id6">2.5. 表紙の分割</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scan.html">3. 本のスキャン</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="scan.html#b5">3.1. カバーのスキャン（B5サイズ以上）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scan.html#id4">3.2. カバーのスキャン（単行本サイズ）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="scan.html#id5">3.3. 本体のスキャン</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">4. ScanSnapの設定</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id1">4.1. 基本設定</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id2">4.1.1. 「アプリ選択」の設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">4.1.2. 「保存先」の設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id4">4.1.3. 「読み取りモード」の設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id5">4.1.4. 「ファイル形式」の設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id6">4.1.5. 「原稿」の設定</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id7">4.1.6. 「ファイルサイズ」の設定</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id8">4.2. 表紙用の設定</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id9">4.3. 技術書の本文用の設定（グレースケール）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id10">4.4. 技術書の本文用の設定（カラー）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id11">4.5. コミックの本文用の設定（グレースケース）</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id12">4.6. コミックの本文用の設定（カラー）</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="scanner.html">5. スキャナの設定</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">本の自炊マニュアル</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+ 
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>4. ScanSnapの設定</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/scansnap.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="scansnap">
+<h1>4. ScanSnapの設定<a class="headerlink" href="#scansnap" title="このヘッドラインへのパーマリンク">¶</a></h1>
+<p>本の種類などにより、ScanSnapの読み取り設定を準備します。</p>
+<div class="section" id="id1">
+<h2>4.1. 基本設定<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<ol class="arabic simple">
+<li>ScanSnap Managerを起動します。</li>
+<li>「クイックメニューを使用する」のチェックをはずし、「読み取り設定」のプルダウンから、「新しい読み取り設定...」を選択します。</li>
+</ol>
+<div class="figure align-center" id="id13">
+<img alt="_images/common_011.png" src="_images/common_011.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.1 </span><span class="caption-text">新しい読み取り設定</span></p>
+</div>
+<ol class="arabic simple" start="3">
+<li>読み取り設定の名称を「共通設定」など適当に付けます。</li>
+</ol>
+<div class="figure align-center" id="id14">
+<img alt="_images/common_021.png" src="_images/common_021.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.2 </span><span class="caption-text">読み取り設定の名称</span></p>
+</div>
+<p>以下、詳細の設定を行っていきます。</p>
+<div class="section" id="id2">
+<h3>4.1.1. 「アプリ選択」の設定<a class="headerlink" href="#id2" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>「アプリ選択」は、何も設定しません。</p>
+<div class="figure align-center" id="id15">
+<img alt="_images/common_app1.png" src="_images/common_app1.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.3 </span><span class="caption-text">アプリ選択</span></p>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>4.1.2. 「保存先」の設定<a class="headerlink" href="#id3" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ol class="arabic simple">
+<li>「イメージの保存先」として、好きな箇所に設定します。自身は、Dドライブの浅い箇所に設定しています。</li>
+</ol>
+<div class="figure align-center" id="id16">
+<img alt="_images/common_save_dir1.png" src="_images/common_save_dir1.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.4 </span><span class="caption-text">保存先の設定</span></p>
+</div>
+<ol class="arabic simple" start="2">
+<li>「ファイル名」の設定として、「yyyyMMddHHmmss」を選択します。</li>
+</ol>
+<div class="figure align-center" id="id17">
+<img alt="_images/common_save_filename1.png" src="_images/common_save_filename1.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.5 </span><span class="caption-text">ファイル名の設定</span></p>
+</div>
+</div>
+<div class="section" id="id4">
+<h3>4.1.3. 「読み取りモード」の設定<a class="headerlink" href="#id4" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ol class="arabic simple">
+<li>画質の選択などを行います。<ol class="loweralpha">
+<li>「画質の選択」として、「スーパーファイン」を選択します。iPadで読む場合も、基本的に300dpiで十分です。</li>
+<li>「カラーモードの選択」として、「カラー自動判別」を選択します。</li>
+<li>「読み取り面の選択」として、「両面読み取り」を選択します。</li>
+<li>「向きの選択」として、「回転しない」を選択します。</li>
+<li>「白紙ページを自動的に削除します」のチェックを外します。</li>
+<li>「継続読み取りを有効にします」にチェックします。</li>
+</ol>
+</li>
+</ol>
+<div class="figure align-center" id="id18">
+<img alt="_images/common_read.png" src="_images/common_read.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.6 </span><span class="caption-text">読み取りモードの設定</span></p>
+</div>
+<ol class="arabic simple" start="2">
+<li>「オプション」の設定として、全てのチェックを外します。</li>
+</ol>
+<div class="figure align-center" id="id19">
+<img alt="_images/common_read_option.png" src="_images/common_read_option.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.7 </span><span class="caption-text">読み取りモードのオプションの設定</span></p>
+</div>
+</div>
+<div class="section" id="id5">
+<h3>4.1.4. 「ファイル形式」の設定<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>「ファイル形式」は、JPEGを選択します。
+PDF化やOCRによる文字認識は、後で他のアプリを使って行うため、画像として読み込みます。</p>
+<div class="figure align-center" id="id20">
+<img alt="_images/common_filetype.png" src="_images/common_filetype.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.8 </span><span class="caption-text">ファイル形式</span></p>
+</div>
+</div>
+<div class="section" id="id6">
+<h3>4.1.5. 「原稿」の設定<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<ol class="arabic simple">
+<li>「原稿静の選択」は、「サイズの自動検出」を選択します。</li>
+<li>「マルチフィード検出」は、「重なりで検出（超音波）」を選択します。</li>
+</ol>
+<div class="figure align-center" id="id21">
+<img alt="_images/common_note.png" src="_images/common_note.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.9 </span><span class="caption-text">原稿の設定</span></p>
+</div>
+</div>
+<div class="section" id="id7">
+<h3>4.1.6. 「ファイルサイズ」の設定<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<p>ファイルサイズとして「3」を設定します。</p>
+<div class="figure align-center" id="id22">
+<img alt="_images/common_filesize.png" src="_images/common_filesize.png" />
+<p class="caption"><span class="caption-number">図 - 4.1.10 </span><span class="caption-text">ファイルサイズの設定</span></p>
+</div>
+</div>
+</div>
+<div class="section" id="id8">
+<h2>4.2. 表紙用の設定<a class="headerlink" href="#id8" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>読み取りモード以外は、共通設定と同じです。</p>
+<ol class="arabic simple">
+<li>読み取り設定として「共通設定」を選択し、切り替えます。</li>
+<li>「読み取り設定」のプルダウンから、「新しい読み取り設定...」を選択します。</li>
+<li>読み取り設定の名称を「」などと</li>
+</ol>
+</div>
+<div class="section" id="id9">
+<h2>4.3. 技術書の本文用の設定（グレースケール）<a class="headerlink" href="#id9" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>文章が主体の設定を行います。</p>
+</div>
+<div class="section" id="id10">
+<h2>4.4. 技術書の本文用の設定（カラー）<a class="headerlink" href="#id10" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>グレースケースの設定を単純に、カラー自動判別にします。</p>
+</div>
+<div class="section" id="id11">
+<h2>4.5. コミックの本文用の設定（グレースケース）<a class="headerlink" href="#id11" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>技術書のグレースケール設定に対して、絵が主体なので文字の傾き補正などを外します。</p>
+</div>
+<div class="section" id="id12">
+<h2>4.6. コミックの本文用の設定（カラー）<a class="headerlink" href="#id12" title="このヘッドラインへのパーマリンク">¶</a></h2>
+<p>グレースケースの設定を単純に、カラー自動判別にします。</p>
+</div>
+</div>
+
+
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="scanner.html" class="btn btn-neutral float-right" title="5. スキャナの設定" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="scan.html" class="btn btn-neutral" title="3. 本のスキャン" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, mygreen.
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="_static/translations.js"></script>
+      <script type="text/javascript" src="_static/mytheme.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+  
+<!-- my theme custom extrahead beacon -->
+<script type="text/javascript" src="_static/jquery.externallink.js" charset="UTF-8"></script>
+<script type="text/javascript">
+	jQuery(function () {
+		// ナビゲーション用のアイコン
+		$('div.wy-menu').externalLink({cssClass : 'externalink-img', iconUrl:'_static/external-link-12.png', startUrl:'../apidocs/'});
+		
+		// コンテンツ用
+		$('div.wy-nav-content').externalLink({cssClass : 'externalink', iconUrl:'', startUrl:'../apidocs/'});
+		
+	});
+</script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37313068-5', 'auto');
+  ga('send', 'pageview');
+  
+</script>
+
+ 
+
+
+</body>
+</html>
