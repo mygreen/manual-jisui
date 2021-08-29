@@ -1,2 +1,10 @@
-# manual-jisui
-本の自炊マニュアル
+# 本の自炊マニュアル
+
+## ライセンス
+
+MITライセンス
+
+## マニュアル
+
+- https://mygreen.github.io/manual-jisui/
+
